@@ -1,0 +1,18 @@
+.card{
+    height: 100%;
+}
+.technology{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .technology span{
+    background: #e9af1d;
+    color: black!important;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 15px;
+    
+} 
