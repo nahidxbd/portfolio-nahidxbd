@@ -1,65 +1,6 @@
-.skill{
-    color: tomato;
-   text-align: center;
-padding-bottom: 20px;}
-
-ul{
-    text-align: center;
-}
-img{
-   padding-right: 50px;
-    width:250px;
-    
+.profileImage{
+  width: 300px;
+  height:auto;
+  margin-left: 20%;
 }
 
-  .social-menus ul{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    display: flex;
-    margin-left: 450px;
-    padding-top: 50px;
-  }
-  .social-menus ul li{
-    list-style: none;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    margin-right: 20px;
-  }
-  .social-menus ul .fa{
-    padding-left: 2px;
-   font-size: 25px;
-   line-height: 40px;
-   transition: .6s;
-   color: #000;
-  }
-  .social-menus ul .fa:hover{
-    color: #fff;
-  }
-  .social-menus ul li a{
-    position: relative;
-    display: block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    border: 2px solid #e71809;
-    /* background-color: #fff; */
-    /* text-align: center; */
-    transition: .6s;
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
-  }
-  /* .social-menu ul li a:hover{
-    transform: translate(0, -10px);
-  } */
-  .social-menus ul li:nth-child(1) a:hover{
-    background-color: #212529;
-  }
-  .social-menus ul li:nth-child(2) a:hover{
-    background-color: #0077B5;
-  }
-  .social-menus ul li:nth-child(3) a:hover{
-    background-color: #3b5999;
-  }
-  .social-menus ul li:nth-child(4) a:hover{
-    background-color: #55acee;
-  }
-  

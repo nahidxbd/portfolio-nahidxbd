@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light py-3">
+            <nav className="navbar navbar-expand-lg navbar-dark py-3">
                 <div className="container">
                     <Link className="navbar-brand" to="/">
                         <img style={{width:"130px"}} src={logo} alt=""/>
@@ -30,13 +30,17 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link style={{ color: "white" }} className="nav-link mr-5 font-weight-bold" to="/contact">Contact</Link>
                             </li>
-                        </ul>
 
-                        <a className='link' href="https://drive.google.com/u/0/uc?id=1ydi1GA6V59oZ1865wHx7Gv1f6wYTLh9j&export=download" target="_blank">
+                            <li>
+                            <a className='link' href="https://drive.google.com/file/d/11_-h9bpVZ-9dc_PWAMmDKUNuI-P4qzmK/view?usp=sharing" target="_blank">
                             <button
                                 style={{ padding: '4px 20px' }}
                                 type="button"
-                                className='btn btn-outline-danger text-white font-weight-bold'>Download CV</button></a>
+                                className='mr-5  btn btn-outline-danger text-white font-weight-bold'>Download CV</button></a>
+                            </li>
+                        </ul>
+
+                       
 
                     </div>
                 </div>

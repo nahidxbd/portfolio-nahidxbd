@@ -2,6 +2,52 @@
     height: 100%;
 }
 
-img {
-    width:100px
+.bg1{
+    background-image: url(../../images//projects/travelGuru.png);
+    height: 200px;
+}
+
+.bg2{
+    background-image: url(../../images//projects/creativeAgency.png);
+    height: 200px;
+}
+
+.bg3{
+    background-image: url(../../images//projects/VolunteerNetwork.png);
+    height: 200px;
+}
+
+
+.text{
+    color:black
+}
+
+.mySkills{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .mySkills span{
+    background: #e71809;
+    color: white!important;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 15px;
+    
+} 
+
+.mySkills span:hover{
+    color: black!important;
+    background-color: white;
+}
+
+.objective{
+    padding-top: 30%;
+}
+
+.clientsComment h1{
+    color: #e71809;
+    padding-bottom: 20px;
 }

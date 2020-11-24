@@ -18,8 +18,8 @@ const Contact = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="container">
-                <div className="my-5">
+            <div className="container col-md-6">
+                <div className=" my-5">
 
                     <div style={{ backgroundColor: "rgb(23, 42, 69)" }} className='mx-auto contact-form my-3 p-3 px-4' >
                         <div className="">
@@ -34,9 +34,11 @@ const Contact = () => {
                                 <div className="form-group">
                                     <textarea name="message" rows="4" placeholder="Your Message" type="text" className="form-control"></textarea>
                                 </div>
-                                <div className=" text-center form-group">
-                                    <button style={{ backgroundColor: "green" }} type="submit" className="btn btn-block">Send</button>
+                                <div className=" text-right form-group">
+                                    <button  type="submit" className="btn btn-outline-success">Send</button>
+                                    
                                 </div>
+                                
                             </form>
                         </div>
                     </div>
