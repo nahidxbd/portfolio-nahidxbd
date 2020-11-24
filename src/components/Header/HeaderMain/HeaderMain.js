@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from '../../../images/My Images/profile-01.png';
-import { Link } from "react-router-dom";
+
 
 import Typist from 'react-typist';
 import './HeaderMain.css';
@@ -35,7 +35,7 @@ const HeaderMain = () => {
                         
                         <p className="my-5">MERN stack JavaScript developer with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging.</p>
                         
-                            <div class="social-menu ">
+                            <div class="social-menu animate__animated animate__bounceInLeft">
                                 <ul>
                                     <li><a href="https://github.com/nahidxbd" target="_blank"><i class="fa fa-github"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/nahidxbd" target="_blank"><i class="fa text-center fa-linkedin"></i></a></li>
@@ -48,7 +48,7 @@ const HeaderMain = () => {
                       
                     </div>
                     <div className="col-md-4 ">
-                        <img className="img-fluid pt-5 mx-auto profilePic" src={profile} alt=""/>
+                        <img className="img-fluid pt-5 mx-auto profilePic animate__animated animate__heartBeat" src={profile} alt=""/>
                     </div>
             </div>
         </div>

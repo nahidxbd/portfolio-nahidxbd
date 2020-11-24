@@ -11,7 +11,7 @@ const About = () => {
            <div className="container">
                <Navbar></Navbar>
                <div className="row">
-                   <div className="col-md-7 mx-auto">
+                   <div className="col-md-7 mx-auto  animate__animated animate__fadeInBottomLeft">
                        
 <img className='img-fluid pt-5 profileImage' src={profile} alt=""/>
 <p>Hello,My name is <strong style={{color:'#e71809'}}>Nahidul Islam</strong> <br/>
@@ -23,7 +23,7 @@ I am a passionate MERN stack JavaScript developer with skill of programming to d
                                 type="button"
                                 className='mr-5  btn btn-outline-danger text-white font-weight-bold'>Full details about me </button></a>
                    </div>
-                   <div className="col-md-5 pt-5">
+                   <div className="col-md-5 pt-5 animate__animated animate__fadeInBottomRight">
                    
 
 <h5>Expertise</h5>

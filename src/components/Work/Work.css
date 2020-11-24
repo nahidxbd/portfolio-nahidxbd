@@ -51,3 +51,12 @@
     color: #e71809;
     padding-bottom: 20px;
 }
+
+.clientsComment p{
+    text-align: justify;
+}
+
+.clientsComment h5{
+    color: #e71809;
+    text-align: right;
+}

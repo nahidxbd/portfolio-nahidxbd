@@ -18,7 +18,7 @@ const Contact = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="container col-md-6">
+            <div className="container col-md-6 animate__animated animate__zoomIn">
                 <div className=" my-5">
 
                     <div style={{ backgroundColor: "rgb(23, 42, 69)" }} className='mx-auto contact-form my-3 p-3 px-4' >
