@@ -18,10 +18,12 @@ const Contact = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="container col-md-6 animate__animated animate__zoomIn">
+            <div className='container '>
+                <div className="row">
+                <div className="mx-auto animate__animated animate__zoomIn">
                 <div className=" my-5">
 
-                    <div style={{ backgroundColor: "rgb(23, 42, 69)" }} className='mx-auto contact-form my-3 p-3 px-4' >
+                    <div style={{ backgroundColor: "rgb(23, 42, 69)" }} className='contact-form my-3 p-3 px-4' >
                         <div className="">
                             <h2 className="text-center mb-4"><strong>Let's Talk</strong></h2>
                             <form action="" onSubmit={sendEmail} >
@@ -42,6 +44,8 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
+                </div>
+            </div>
                 </div>
             </div>
         </div>

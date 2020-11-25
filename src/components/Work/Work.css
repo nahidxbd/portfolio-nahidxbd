@@ -47,7 +47,7 @@
     padding-top: 30%;
 }
 
-.clientsComment h1{
+.clientHeader{
     color: #e71809;
     padding-bottom: 20px;
 }
@@ -59,4 +59,8 @@
 .clientsComment h5{
     color: #e71809;
     text-align: right;
+}
+
+.submitButton{
+    margin-right: 90%;
 }

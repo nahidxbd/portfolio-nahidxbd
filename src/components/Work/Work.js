@@ -27,7 +27,11 @@ const Work = () => {
 
 <div className="row">
 
-  <div className="col-md-6 pt-5 w-50">
+  <div className="col-md-6 pt-5 w-100">
+  <div className="nav-item animate__animated animate__bounceInLeft">
+ 
+  <Link style={{ color: "white" }} className="nav-link mr-5 font-weight-bold" to="/projects"><h3 style={{color:'#e71809'}}>Project Details</h3></Link>
+  </div>
   <div >
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
  
@@ -39,33 +43,21 @@ const Work = () => {
 
 
        <div class="carousel-caption d-none d-md-block  ">
-       <a href="/projects">
-      <button type="button" class="btn btn-danger mr-4" data-toggle="button" aria-pressed="false" autocomplete="off">
-  Project Details
-</button>
-      </a>
+      
   </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src={bg3} alt="Second slide"/>
 
       <div class="carousel-caption d-none d-md-block  ">
-      <a href="/projects">
-      <button type="button" class="btn btn-danger mr-4" data-toggle="button" aria-pressed="false" autocomplete="off">
-  Project Details
-</button>
-      </a>
+     
   </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src={bg1} alt="Third slide"/>
 
       <div class="carousel-caption d-none d-md-block  ">
-      <a href="/projects">
-      <button type="button" class="btn btn-danger mr-4" data-toggle="button" aria-pressed="false" autocomplete="off">
-  Project Details
-</button>
-      </a>
+   
   </div>
     </div>
 
@@ -73,11 +65,7 @@ const Work = () => {
       <img class="d-block w-100" src={bg5} alt="Third slide"/>
 
       <div class="carousel-caption d-none d-md-block  ">
-      <a href="/projects">
-      <button type="button" class="btn btn-danger mr-4" data-toggle="button" aria-pressed="false" autocomplete="off">
-  Project Details
-</button>
-      </a>
+    
   </div>
     </div>
 
@@ -85,11 +73,7 @@ const Work = () => {
       <img class="d-block w-100" src={bg2} alt="Third slide"/>
 
       <div class="carousel-caption d-none d-md-block  ">
-      <a href="/projects">
-      <button type="button" class="btn btn-danger mr-4" data-toggle="button" aria-pressed="false" autocomplete="off">
-  Project Details
-</button>
-      </a>
+    
   </div>
     </div>
   </div>
@@ -113,7 +97,7 @@ const Work = () => {
   </div>
 
 
-  <div className="col-md-6 pl-5 animate__animated animate__fadeInUp">
+  <div className="col-md-6 pl-5 pt-5 animate__animated animate__fadeInUp">
 
 <h5>Expertise</h5>
 <div className="mySkills">
@@ -206,7 +190,7 @@ const Work = () => {
                 <textarea name="message" rows="4" placeholder="Your Message" type="text" className="form-control"></textarea>
             </div>
             <div className=" text-right form-group">
-                <button  type="submit" className="btn btn-outline-success">Send</button>
+                <button  type="submit" className="btn btn-outline-success submitButton">Send</button>
                 
             </div>
             
@@ -216,50 +200,54 @@ const Work = () => {
 </div>
   </div>
 
-{/* Clients comment section */}
+  <div className="container">
+           <div className="row">
+               {/* Clients comment section */}
 
-  <div id="carouselExampleIndicators" class="carousel slide mx-auto pt-5" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide mx-auto pt-5 col-md-6" data-ride="carousel">
  
-  <div class="carousel-inner pb-5 pt-5">
-    <div class="carousel-item active text-center clientsComment">
-      <h1>what client says about me!</h1>
-      <p>"It has been a real pleasure to work with Nahidul Islam. I have been extremely happy with his professionalism, quality of work and creative ideas. He is very focused on getting the job done in a timely manner, and is a great communicator. He also has innovated ways to keep the development costs down, which is greatly appreciated. I highly recommend Chris and will continue to do business with him on an ongoing basis." <br/> <h5>-- Stu Cass</h5></p>
-    </div>
-    <div class="carousel-item text-center clientsComment">
-    <h1>what client says about me!</h1>
-      <p>"The site looks absolutely terrific. I'm very pleased. Thank you so much for all of your hard work, guidance, and patience...Many thanks. You're the best! I heartily recommend you to anyone who is looking for a creative, efficient, responsive web design professional who keeps his clients' goals and best interests at heart. And is a complete pleasure to work with!"
-        <br/><h5>-- Kelly Hughes</h5>
+ <div class="carousel-inner pb-5 pt-5">
+   <div class="carousel-item active text-center clientsComment">
+     <h3 className='pb-4 clientHeader'>what client says!</h3>
+     <p>"It has been a real pleasure to work with Nahidul Islam. I have been extremely happy with his professionalism, quality of work and creative ideas. He is very focused on getting the job done in a timely manner, and is a great communicator. " <br/> <h5>-- Stu Cass</h5></p>
+   </div>
+   <div class="carousel-item text-center clientsComment">
+   <h3 className='pb-4 clientHeader'>what client says!</h3>
+     <p>"The site looks absolutely terrific. I'm very pleased. Thank you so much for all of your hard work, guidance, and patience...Many thanks. You're the best!"
+       <br/><h5>-- Kelly Hughes</h5>
 
 </p>
-    </div>
-    <div class="carousel-item text-center clientsComment">
-    <h1>what client says about me!</h1>
-      <p>"Thank you so much for all your work. You did it so quickly. You did a great job and were very easy to work with. We look forward to seeing you at one of our art shows!"
-        <br/> <h5>-- Jane and Sue Shaffer</h5>
+   </div>
+   <div class="carousel-item text-center clientsComment">
+   <h3 className='pb-4 clientHeader'>what client says!</h3>
+     <p>"Thank you so much for all your work. You did it so quickly. You did a great job and were very easy to work with. We look forward to seeing you at one of our art shows!"
+       <br/> <h5>-- Jane and Sue Shaffer</h5>
 
 </p>
-    </div>
+   </div>
 
-    <div class="carousel-item text-center clientsComment">
-      
-    <h1>what client says about me!</h1>
-      <p >"I was just going over our new Elizabeth Lynch Photography website, and I wanted to say THANK YOU because it looks fabulous. Kudos to your expertise and hours logged in front of the computer screen." <br/><h5>-- Elizabeth Lynch</h5></p>
-    </div>
+   <div class="carousel-item text-center clientsComment">
+     
+   <h3 className='pb-4 clientHeader'>what client says!</h3>
+     <p >"I was just going over our new Elizabeth Lynch Photography website, and I wanted to say THANK YOU because it looks fabulous. Kudos to your expertise and hours logged in front of the computer screen." <br/><h5>-- Elizabeth Lynch</h5></p>
+   </div>
 
-    <div class="carousel-item text-center clientsComment">
-    <h1>what client says about me!</h1>
-      <p>"We have been very happy with everything that you have done for us, and how things have worked. We have all been on the same page throughout the design process; and that, as we all know, is a big part of saving time and money. We made the right choice is choosing you, and you would get any referral that we come across." <br/><h5>-- Jeff Estes</h5></p>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+   <div class="carousel-item text-center clientsComment">
+   <h3 className='pb-4 clientHeader'>what client says!</h3>
+     <p>"We have been very happy with everything that you have done for us, and how things have worked. We have all been on the same page throughout the design process; and that, as we all know, is a big part of saving time and money." <br/><h5>-- Jeff Estes</h5></p>
+   </div>
+ </div>
+ <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+   <span class="" aria-hidden="true"></span>
+   <span class="sr-only">Previous</span>
+ </a>
+ <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+   <span class="" aria-hidden="true"></span>
+   <span class="sr-only">Next</span>
+ </a>
 </div>
+           </div>
+       </div>
 
 </div>
 
