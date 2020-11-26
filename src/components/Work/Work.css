@@ -1,3 +1,4 @@
+
 .card{
     height: 100%;
 }
@@ -22,12 +23,16 @@
     color:black
 }
 
+.carouselPadding{
+    padding-top:75px
+}
+
 .mySkills{
     display: flex;
     flex-wrap: wrap;
 }
  .mySkills span{
-    background: #e71809;
+    background: lightseagreen;
     color: white!important;
     margin-right: 5px;
     margin-top: 5px;
@@ -40,7 +45,7 @@
 
 .mySkills span:hover{
     color: black!important;
-    background-color: white;
+    background-color:goldenrod;
 }
 
 .objective{
@@ -48,8 +53,8 @@
 }
 
 .clientHeader{
-    color: #e71809;
-    padding-bottom: 20px;
+    margin-top: 75px;
+    padding-top: 20px;
 }
 
 .clientsComment p{
@@ -57,10 +62,16 @@
 }
 
 .clientsComment h5{
-    color: #e71809;
+    color: 	midnightblue;
     text-align: right;
 }
 
 .submitButton{
     margin-right: 90%;
 }
+
+
+  .border-gradient-purple {
+    border-image-source: linear-gradient(to left,#d53a9d ,#743ad5);
+  }
+

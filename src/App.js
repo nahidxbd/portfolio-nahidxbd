@@ -12,6 +12,8 @@ import Contact from './components/Contact/Contact';
 import AllBlogs from './components/AllBlogs/AllBlogs';
 
 
+
+
 function App() {
   return (
     <div>

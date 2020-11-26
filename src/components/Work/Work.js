@@ -7,6 +7,7 @@ import bg3 from '../../images/projects/VolunteerNetwork.png'
 import bg4 from '../../images/projects/powerxgym.PNG'
 import bg5 from '../../images/projects/creativeAgency.png'
 
+
 import './Work.css';
 const Work = () => {
 
@@ -27,11 +28,8 @@ const Work = () => {
 
 <div className="row">
 
-  <div className="col-md-6 pt-5 w-100">
-  <div className="nav-item animate__animated animate__bounceInLeft">
- 
-  <Link style={{ color: "white" }} className="nav-link mr-5 font-weight-bold" to="/projects"><h3 style={{color:'#e71809'}}>Project Details</h3></Link>
-  </div>
+  <div className="col-md-6 carouselPadding w-100">
+  
   <div >
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
  
@@ -90,14 +88,17 @@ const Work = () => {
 
 
 
-
+  <div className="nav-item animate__animated animate__bounceInLeft">
+ 
+ <Link style={{color:'white'}}  to="/projects"><h5 className='text-center detailsLink' style={{color:'darkturquoise'}}>Click For Details...</h5></Link>
+ </div>
 
 
 
   </div>
 
 
-  <div className="col-md-6 pl-5 pt-5 animate__animated animate__fadeInUp">
+  <div className="col-md-6 pl-5 pt-4 animate__animated animate__fadeInUp">
 
 <h5>Expertise</h5>
 <div className="mySkills">
@@ -163,7 +164,7 @@ const Work = () => {
   <div className="col-md-6">
     
   <ol className="objective">
-  <h4 style={{paddingBottom:'20px',color:'#e71809'}}>Why you hire me?</h4>
+  <h4 style={{paddingBottom:'20px',color:'midnightblue'}}>Why you hire me?</h4>
             <li>Experience designing and programming web pages.</li>
             <li>Excellent trouble shooting and bug resolutions abilities.</li>
             <li>Critical thinking and problem-solving skills.</li>
@@ -208,18 +209,18 @@ const Work = () => {
  
  <div class="carousel-inner pb-5 pt-5">
    <div class="carousel-item active text-center clientsComment">
-     <h3 className='pb-4 clientHeader'>what client says!</h3>
+     <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
      <p>"It has been a real pleasure to work with Nahidul Islam. I have been extremely happy with his professionalism, quality of work and creative ideas. He is very focused on getting the job done in a timely manner, and is a great communicator. " <br/> <h5>-- Stu Cass</h5></p>
    </div>
    <div class="carousel-item text-center clientsComment">
-   <h3 className='pb-4 clientHeader'>what client says!</h3>
+   <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
      <p>"The site looks absolutely terrific. I'm very pleased. Thank you so much for all of your hard work, guidance, and patience...Many thanks. You're the best!"
        <br/><h5>-- Kelly Hughes</h5>
 
 </p>
    </div>
    <div class="carousel-item text-center clientsComment">
-   <h3 className='pb-4 clientHeader'>what client says!</h3>
+   <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
      <p>"Thank you so much for all your work. You did it so quickly. You did a great job and were very easy to work with. We look forward to seeing you at one of our art shows!"
        <br/> <h5>-- Jane and Sue Shaffer</h5>
 
@@ -228,12 +229,12 @@ const Work = () => {
 
    <div class="carousel-item text-center clientsComment">
      
-   <h3 className='pb-4 clientHeader'>what client says!</h3>
+   <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
      <p >"I was just going over our new Elizabeth Lynch Photography website, and I wanted to say THANK YOU because it looks fabulous. Kudos to your expertise and hours logged in front of the computer screen." <br/><h5>-- Elizabeth Lynch</h5></p>
    </div>
 
    <div class="carousel-item text-center clientsComment">
-   <h3 className='pb-4 clientHeader'>what client says!</h3>
+   <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
      <p>"We have been very happy with everything that you have done for us, and how things have worked. We have all been on the same page throughout the design process; and that, as we all know, is a big part of saving time and money." <br/><h5>-- Jeff Estes</h5></p>
    </div>
  </div>

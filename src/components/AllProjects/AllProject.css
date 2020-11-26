@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
  .technology span{
-    background:#e71809;
+    background:lightseagreen;
     color:white!important;
     margin-right: 5px;
     margin-top: 5px;
@@ -17,7 +17,7 @@
     
 } 
 strong{
-    color: #e71809;
+    color: lightseagreen;
 }
 .card img{
     height: 200px;

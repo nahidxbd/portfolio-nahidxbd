@@ -10,18 +10,18 @@ const HeaderMain = () => {
             <div className="row">
             <div className="col-md-8 my-5">
                        
-                        <div style={{ color: '#e71809' }} className="div">
+                        <div style={{ color: 'midnightblue' }} className="div">
                         <Typist cursor={{
                                 "hideWhenDone": true,
                                 "hideWhenDoneDelay": 0
                             }}>
-                                <span> Hi,I am </span>
+                                <span style={{ fontSize: "25px" }}> Hi,I am </span>
                                 <Typist.Backspace count={8} delay={500} />
-                                <span>Hi,I am</span>
+                                <span style={{ fontSize: "25px" }}>Hi,I am</span>
                             </Typist>
                         </div>
                         <h1  style={{ fontSize: "60px" }}>Nahidul islam</h1>
-                        <h3 style={{ color: '#e71809' }} className="mb-4">
+                        <h3 style={{ color: 'midnightblue' }} className="mb-4">
 
                             <Typist cursor={{
                                 "hideWhenDone": true,

@@ -1,9 +1,12 @@
 body {
  
-  background-color: #00010e;
+  background-image: linear-gradient(to bottom right, 	teal, blueviolet);
   color: #e6f1ff;
   
 }
+
+
+
 .App {
   text-align: center;
   
