@@ -20,10 +20,31 @@ const Contact = () => {
             <Navbar></Navbar>
             <div className='container '>
                 <div className="row">
+                <div className="col-md-6">
+                <div class="social-menu animate__animated animate__bounceInLeft socialResize">
+                                <ul>
+                                    <li><a href="https://github.com/nahidxbd" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/nahidxbd" target="_blank"><i class="fa text-center fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/nahidxbd" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+                                </ul>
+                            
+                        </div>
+                        <div className='phone'>
+                        <h4>Nahidul Islam</h4>
+                        <h6 style={{color:'black'}}>
+                           
+                            +8801515289820 <br/>
+                            +8801796656087
+                        </h6>
+                        </div>
+                </div>
+                <div className="col-md-6">
                 <div className="mx-auto animate__animated animate__zoomIn">
                 <div className=" my-5">
 
-                    <div style={{ backgroundColor: "rgb(23, 42, 69)" }} className='contact-form my-3 p-3 px-4' >
+                    <div style={{ backgroundColor: "rgb(23, 42, 69)" }} className='contact-form w-100 my-3 p-3 px-4' >
                         <div className="">
                             <h2 className="text-center mb-4"><strong>Let's Talk</strong></h2>
                             <form action="" onSubmit={sendEmail} >
@@ -46,6 +67,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+                </div>
                 </div>
             </div>
         </div>

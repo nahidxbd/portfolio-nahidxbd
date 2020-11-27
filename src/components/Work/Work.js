@@ -6,6 +6,11 @@ import bg2 from '../../images/projects/travelGuru.png'
 import bg3 from '../../images/projects/VolunteerNetwork.png'
 import bg4 from '../../images/projects/powerxgym.PNG'
 import bg5 from '../../images/projects/creativeAgency.png'
+import feedback1 from '../../images/Feedback/1.png'
+import feedback2 from '../../images/Feedback/2.png'
+import feedback3 from '../../images/Feedback/3.png'
+import feedback4 from '../../images/Feedback/4.png'
+import feedback5 from '../../images/Feedback/5.png'
 
 
 import './Work.css';
@@ -174,32 +179,34 @@ const Work = () => {
             <li>Familiar filing reports, gathering information, and performing research.</li>
         </ol>
   </div>
-  <div className="col-md-6">
-  <div className="my-5 pt-5">
+  <div className="col-md-6 ">
+                <div className="mx-auto animate__animated animate__zoomIn">
+                <div className=" my-5 pt-5">
 
-<div style={{ backgroundColor: "rgb(23, 42, 69)" }} className='mx-auto contact-form my-3 p-3 px-4' >
-    <div className="">
-        <h2 className="text-center mb-4"><strong style={{color:'#e71809'}}>Let's Talk</strong></h2>
-        <form action="" onSubmit={sendEmail} >
-            <div className="form-group">
-                <input name="user_name" placeholder="Your Name" type="text" className="form-control" />
+                    <div style={{ backgroundColor: "rgb(23, 42, 69)" }} className='contact-form w-100 my-3 p-3 px-4' >
+                        <div className="">
+                            <h2 className="text-center mb-4"><strong>Let's Talk</strong></h2>
+                            <form action="" onSubmit={sendEmail} >
+                                <div className="form-group">
+                                    <input name="user_name" placeholder="Your Name" type="text" className="form-control" />
+                                </div>
+                                <div className="form-group">
+                                    <input name="user_email" placeholder="Your Email" type="email" className="form-control" />
+                                </div>
+                                <div className="form-group">
+                                    <textarea name="message" rows="4" placeholder="Your Message" type="text" className="form-control"></textarea>
+                                </div>
+                                <div className=" text-right form-group">
+                                    <button  type="submit" className="btn btn-outline-success">Send</button>
+                                    
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="form-group">
-                <input name="user_email" placeholder="Your Email" type="email" className="form-control" />
-            </div>
-            <div className="form-group">
-                <textarea name="message" rows="4" placeholder="Your Message" type="text" className="form-control"></textarea>
-            </div>
-            <div className=" text-right form-group">
-                <button  type="submit" className="btn btn-outline-success submitButton">Send</button>
-                
-            </div>
-            
-        </form>
-    </div>
-</div>
-</div>
-  </div>
+                </div>
 
   <div className="container">
            <div className="row">
@@ -209,33 +216,38 @@ const Work = () => {
  
  <div class="carousel-inner pb-5 pt-5">
    <div class="carousel-item active text-center clientsComment">
-     <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
-     <p>"It has been a real pleasure to work with Nahidul Islam. I have been extremely happy with his professionalism, quality of work and creative ideas. He is very focused on getting the job done in a timely manner, and is a great communicator. " <br/> <h5>-- Stu Cass</h5></p>
+   
+     <img style={{width:'50px'}} src={feedback4} alt=""/>
+     <p>"It has been a real pleasure to work with Nahidul Islam. I have been extremely happy with his professionalism, quality of work and creative ideas." <br/> <h6>__Stu Cass</h6></p>
    </div>
    <div class="carousel-item text-center clientsComment">
-   <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
-     <p>"The site looks absolutely terrific. I'm very pleased. Thank you so much for all of your hard work, guidance, and patience...Many thanks. You're the best!"
-       <br/><h5>-- Kelly Hughes</h5>
+
+   <img style={{width:'50px'}} src={feedback5} alt=""/>
+     <p>"The site looks absolutely terrific. I'm very pleased. Thank you so much for all of your hard work, guidance."
+       <br/><h6>__Kelly Hughes</h6>
 
 </p>
    </div>
    <div class="carousel-item text-center clientsComment">
-   <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
-     <p>"Thank you so much for all your work. You did it so quickly. You did a great job and were very easy to work with. We look forward to seeing you at one of our art shows!"
-       <br/> <h5>-- Jane and Sue Shaffer</h5>
+ 
+   <img style={{width:'50px'}} src={feedback3} alt=""/>
+     <p>"Thank you so much for all your work. You did it so quickly.You did a great job and were very easy to work with."
+       <br/> <h6>__Sue Shaffer</h6>
 
 </p>
    </div>
 
    <div class="carousel-item text-center clientsComment">
      
-   <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
-     <p >"I was just going over our new Elizabeth Lynch Photography website, and I wanted to say THANK YOU because it looks fabulous. Kudos to your expertise and hours logged in front of the computer screen." <br/><h5>-- Elizabeth Lynch</h5></p>
+  
+   <img style={{width:'50px'}} src={feedback2} alt=""/>
+     <p >"I was just going over our new Elizabeth Lynch Photography website, and I wanted to say THANK YOU because it looks fabulous." <br/><h6>__Elizabeth Lynch</h6></p>
    </div>
 
    <div class="carousel-item text-center clientsComment">
-   <h3 className='pb-4 clientHeader border-gradient border-gradient-purple'>what client says!</h3>
-     <p>"We have been very happy with everything that you have done for us, and how things have worked. We have all been on the same page throughout the design process; and that, as we all know, is a big part of saving time and money." <br/><h5>-- Jeff Estes</h5></p>
+   
+   <img style={{width:'50px'}} src={feedback1} alt=""/>
+     <p>"We have been very happy with everything that you have done for us, and how things have worked. We have all been on the same page throughout the design process." <br/><h6>__Jeff Estes</h6></p>
    </div>
  </div>
  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

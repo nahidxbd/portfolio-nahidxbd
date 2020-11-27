@@ -61,9 +61,13 @@
     text-align: justify;
 }
 
-.clientsComment h5{
-    color: 	midnightblue;
+.clientsComment h6{
+    color:rgb(216, 201, 201);
     text-align: right;
+}
+
+.clientsComment p{
+    color: black;
 }
 
 .submitButton{
@@ -75,3 +79,6 @@
     border-image-source: linear-gradient(to left,#d53a9d ,#743ad5);
   }
 
+  .contactCard{
+    width:200px ;
+  }
