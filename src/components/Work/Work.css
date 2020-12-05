@@ -32,8 +32,8 @@
     flex-wrap: wrap;
 }
  .mySkills span{
-    background: lightseagreen;
-    color: white!important;
+    color:turquoise!important;
+    background-color:rgb(23, 42, 69);
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -44,8 +44,7 @@
 } 
 
 .mySkills span:hover{
-    color: black!important;
-    background-color:goldenrod;
+ 
 }
 
 .objective{
@@ -75,10 +74,7 @@
 }
 
 
-  .border-gradient-purple {
-    border-image-source: linear-gradient(to left,#d53a9d ,#743ad5);
-  }
-
+  
   .contactCard{
     width:200px ;
   }

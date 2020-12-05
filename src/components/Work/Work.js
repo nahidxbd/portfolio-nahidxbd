@@ -95,7 +95,7 @@ const Work = () => {
 
   <div className="nav-item animate__animated animate__bounceInLeft">
  
- <Link style={{color:'white'}}  to="/projects"><h5 className='text-center detailsLink' style={{color:'darkturquoise'}}>Click For Details...</h5></Link>
+ <Link style={{color:'white'}}  to="/projects"><h5 className='text-center detailsLink' style={{color:'black'}}>Click For Details...</h5></Link>
  </div>
 
 
@@ -169,7 +169,7 @@ const Work = () => {
   <div className="col-md-6">
     
   <ol className="objective">
-  <h4 style={{paddingBottom:'20px',color:'midnightblue'}}>Why you hire me?</h4>
+  <h4 style={{paddingBottom:'20px',color:'black'}}>Why you hire me?</h4>
             <li>Experience designing and programming web pages.</li>
             <li>Excellent trouble shooting and bug resolutions abilities.</li>
             <li>Critical thinking and problem-solving skills.</li>
@@ -196,8 +196,8 @@ const Work = () => {
                                 <div className="form-group">
                                     <textarea name="message" rows="4" placeholder="Your Message" type="text" className="form-control"></textarea>
                                 </div>
-                                <div className=" text-right form-group">
-                                    <button  type="submit" className="btn btn-outline-success">Send</button>
+                                <div className=" text-left form-group">
+                                    <button style={{backgroundColor:'teal'}}  type="submit" className="btn btn-success">Send</button>
                                     
                                 </div>
                                 

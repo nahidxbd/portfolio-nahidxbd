@@ -10,7 +10,7 @@ const HeaderMain = () => {
             <div className="row">
             <div className="col-md-8 my-5">
                        
-                        <div style={{ color: 'midnightblue' }} className="div">
+                        <div style={{ color: 'black' }} className="div">
                         <Typist cursor={{
                                 "hideWhenDone": true,
                                 "hideWhenDoneDelay": 0
@@ -21,7 +21,7 @@ const HeaderMain = () => {
                             </Typist>
                         </div>
                         <h1  style={{ fontSize: "60px" }}>Nahidul islam</h1>
-                        <h3 style={{ color: 'midnightblue' }} className="mb-4">
+                        <h3 style={{ color: 'black' }} className="mb-4">
 
                             <Typist cursor={{
                                 "hideWhenDone": true,
